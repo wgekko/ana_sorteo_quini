@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Loteria</title>
     <link rel="stylesheet" type="text/css" href="./estilos/estilos.css">
-    <link rel="stylesheet" type="text/css" href="./estilos/style.css">
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('estilos', filename='styles/estiles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('estilos', filename='styles/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
      <header id="header">
